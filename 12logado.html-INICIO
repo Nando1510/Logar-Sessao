@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desaparecidos Cadastrados</title>
+
+  <!-- Fontes e Bootstrap -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="logado.css" />
+</head>
+<body>
+  <!-- NAVBAR COM SESSÃO -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="justify-content: space-between; padding: 10px 20px;">
+    <a class="navbar-brand" href="#">ENCONTRE ESPERANÇA</a>
+    <div class="d-flex align-items-center">
+      <span id="nome_Usuario" class="text-white fw-bold me-3">Bem-vindo(a)</span>
+      <button onclick="logout()" class="btn btn-danger btn-sm">Sair</button>
+    </div>
+  </nav>
+
+  <br /><br />
+  <header>
+    <h1 class="header-title">Pessoas Desaparecidas Cadastradas</h1>
+  </header>
+
+  <br />
+ 
+
+  <footer>
+    Copyright © Fernando - TCC CIÊNCIA DA COMPUTAÇÃO - UNILASALLE
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  <script>
+  
+  </script>
+</body>
+</html>
