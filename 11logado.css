@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  font-family: 'Karla', sans-serif;
+}
+
+.box-search {
+  display: flex;
+  justify-content: center;
+  gap: 0.1%;
+}
+
+table.records {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+table.records th,
+table.records td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: white;
+}
+
+table.records th {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+}
+
+.icon {
+  cursor: pointer;
+  margin: 0 4px;
+  font-size: 18px;
+}
+
+#admin-nome {
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.btn-sair {
+  padding: 5px 12px;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(17, 54, 71);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.mensagem-vazia {
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.3);
+}
