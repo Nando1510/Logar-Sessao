@@ -1,0 +1,6 @@
+ else{
+         // 🔑 Salva na sessão
+        req.session.adminId = usuario.customId;
+        req.session.adminNome = usuario.nome;
+
+        //AS DUAS LINHAS ACIMA VÃO ANTES DO res.status(200).json({
