@@ -1,0 +1,9 @@
+//PARTE 4
+
+app.get('/verificar_sessao_usuario', (req, res) => {
+  if (req.session.adminId) {
+    res.status(200).json({ logado: true, nome: req.session.adminNome });
+  } else {
+    res.status(401).json({ logado: false });
+  }
+});
