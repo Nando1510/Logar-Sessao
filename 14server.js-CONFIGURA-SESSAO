@@ -1,0 +1,15 @@
+//IR NO TERMINAL E DIGITAR:
+
+//npm install express-session
+
+//LÁ EM CIMA DO SERVER, ABAIXO DO      app.use(express.static('public'));
+
+//INICIA A CONFIGURAÇÃO PARA A SESSÃO
+const session = require('express-session');
+
+app.use(session({
+  secret: 'seuSegredoUltraSecreto', // troque por algo seguro
+  resave: false,
+  saveUninitialized: false,
+  cookie: { secure: false } // true só se usar HTTPS
+}));
