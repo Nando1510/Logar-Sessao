@@ -1,0 +1,26 @@
+ <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--<script src="desaparecidos_Lista.js"></script>  -->
+  <script>
+    // Verifica se o administrador está logado
+    fetch('/verificar_sessao_usuario')
+      .then(res => res.json())
+      .then(data => {
+        if (!data.logado) {
+          alert('Você precisa estar logado como usuário!');
+          window.location.href = '../login/login.html';
+        } else {
+          document.getElementById('nome_Usuario').textContent = `Bem-vindo(a),  ${data.nome}`;
+        }
+      });
+    /*  
+    function logout() {
+      if (confirm('Deseja realmente sair?')) {
+        fetch('/logout', { method: 'POST' })
+          .then(() => window.location.href = '../administrador_Inicio/administrador_Inicio.html');
+      }
+    }*/
+  </script>
+<!--
+</body>
+</html> -->
