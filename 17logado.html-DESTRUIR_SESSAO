@@ -1,0 +1,8 @@
+   
+    function logout() {
+      if (confirm('Deseja realmente sair?')) {
+        fetch('/logout', { method: 'POST' })
+          .then(() => window.location.href = '../login/login.html');
+      }
+    }
+ <!-- </script>   -->
