@@ -16,12 +16,13 @@ async function salvar_Banco() {
   }
 
   if (senha !== redigitar_Senha){
-    alert('Senha e confirmação de senha não conferem.')
+    alert('Senha e confirmação de senha não conferem.');
     return;
   }
 
   if (senha.length < 6 || redigitar_Senha.length < 6){
-    alert('Senha menor que 6 caracteres')
+    alert('Senha menor que 6 caracteres');
+    return;
   }
 
 
