@@ -17,7 +17,7 @@
     function logout() {
       if (confirm('Deseja realmente sair?')) {
         fetch('/logout', { method: 'POST' })
-          .then(() => window.location.href = '../administrador_Inicio/administrador_Inicio.html');
+          .then(() => window.location.href = '../inicio/login.html');
       }
     }*/
   </script>
