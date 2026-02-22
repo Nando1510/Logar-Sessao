@@ -26,7 +26,7 @@ async function logar_Administrador(event) {
 
     if (resposta.ok) {
       // Redireciona para a tela protegida
-      window.location.href = '../logado/logado.html'; 
+      window.location.href = '../inicio/logado.html';; 
     } else {
       alert(resultado.message || 'Usuário ou senha incorretos!');
     }
