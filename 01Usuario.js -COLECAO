@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 // const Nome_Primeira_Letra_MaiusculaSchema = new mongoo.Schema({
-
 const UsuarioSchema = new mongoose.Schema({
   customId: { type: Number, unique: true, required: true },
 
