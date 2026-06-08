@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-const usuarioSchema = new mongoose.Schema({
+// const Nome_Primeira_Letra_MaiusculaSchema = new mongoo.Schema({
+
+const UsuarioSchema = new mongoose.Schema({
   customId: { type: Number, unique: true, required: true },
 
   //  Isso garante que o nome seja único no banco 
@@ -8,4 +10,5 @@ const usuarioSchema = new mongoose.Schema({
   senha: { type: String, required: true }
 }, { timestamps: true });
 
-module.exports = mongoose.model('Usuario', usuarioSchema);
+//module.exports = mongoose.model = ('Nome_Primeira_Letra_Maiuscula', Nome_Primeira_Letra_MaiusculaSchema);
+module.exports = mongoose.model('Usuario', UsuarioSchema);
