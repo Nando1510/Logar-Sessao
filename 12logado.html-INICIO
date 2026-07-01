@@ -14,6 +14,18 @@
 <body>
  <!--  REFERENTE A PÁGINA DE ORDEM DE SERVIÇO  -->
 
+     <!--   <br><br>
+    <div class="usuario-topo">
+
+            <span id="nome_Usuario">
+                Bem-vindo(a), 
+            </span>
+
+            <button onclick="logout()" class="btn-sair">
+                Sair
+            </button>
+    </div>    -->
+
 
   <!-- NAVBAR COM SESSÃO -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="justify-content: space-between; padding: 10px 20px;">
