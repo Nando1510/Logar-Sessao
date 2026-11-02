@@ -26,6 +26,18 @@ app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'login', 'login.html'));
+});
+
+app.get('/cadastro', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'cadastro', 'cadastro.html'));
+});
+
+app.get('/logado', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'logado', 'logado.html'));
+});
+
 
 
 
